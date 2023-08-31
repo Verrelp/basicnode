@@ -15,4 +15,4 @@ class Mamalia extends Animal {
   
 }
 
-module.exports = Mamalia
+module.exports = {Animal,Mamalia}
