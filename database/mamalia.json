@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Sapi",
+    "type": "Mamalia",
+    "Habitat": "Peternakan"
+  },
+  {
+    "name": "Lumba-lumba",
+    "type": "Mamalia",
+    "habitat": "laut"
+  }
+]

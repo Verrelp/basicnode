@@ -1,12 +1,15 @@
-const MamaliaController = require('./class/controller/mamalia.controller')
+const MamaliaController = require("./class/controller/mamalia.controller")
+async function main(){
+    try {
+        const mamalia = {name:"Lumba-lumba", type: "Mamalia",habitat: "laut"}
+        const mamaliaController = new MamaliaController()
+        mamaliaController.getSuara()
+        await mamaliaController.store(mamalia)
+        const mamalias = await mamaliaController.getAll()       
+        console.log(mamalias);
+    } catch (error) {
+        console.error(error);
+    }
 
-
-function main() {
-
-    const mamaliaController = new MamaliaController();
-    mamaliaController.getSuara();
 }
-
-
-
 main()
