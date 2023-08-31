@@ -6,7 +6,7 @@ class Animal {
     }
 
     suaraAnimal () {
-    console.log("Roarr");
+    console.log("Cukurukuk");
 }
 
 }
@@ -14,3 +14,5 @@ class Animal {
 class Mamalia extends Animal {
   
 }
+
+module.exports = Mamalia
